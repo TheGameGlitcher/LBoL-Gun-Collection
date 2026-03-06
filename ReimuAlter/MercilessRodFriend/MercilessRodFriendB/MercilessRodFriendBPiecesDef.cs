@@ -57,7 +57,7 @@ namespace TestMod.Source.Guns.Pieces
 
             config.Id = ConvertGunId(90027, 1);
 
-            config.Projectile = "Hammer";
+            config.Projectile = "HammerSfxAlter";
 
             config.Type = false;
 
@@ -82,10 +82,6 @@ namespace TestMod.Source.Guns.Pieces
             config.Way = new int[][] { new int[] { 1 } };
 
             config.StartSpeed = new float[][] { new float[] { 45f }, new float[] { 9f } };
-
-            config.LaunchSfx = "CommonLaunchLight";
-
-            config.HitBodySfx = "NuclearbombHit";
 
             return config;
         }
