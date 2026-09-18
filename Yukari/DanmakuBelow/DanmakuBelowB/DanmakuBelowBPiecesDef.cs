@@ -7,7 +7,7 @@ using TestMod.Source.Guns.Pieces.Template;
 
 namespace TestMod.Source.Guns.Pieces.Yukari.DanmakuBelow
 {
-    public sealed class DanmakuBelowBPiece1Def : TestModPiece
+    public sealed class DanmakuBelowBPiece0Def : TestModPiece
     {
         public override PieceConfig MakeConfig()
         {
@@ -53,7 +53,7 @@ namespace TestMod.Source.Guns.Pieces.Yukari.DanmakuBelow
         }
     }
 
-    public sealed class DanmakuBelowBPiece2Def : TestModPiece
+    public sealed class DanmakuBelowBPiece1Def : TestModPiece
     {
         public override PieceConfig MakeConfig()
         {
@@ -95,7 +95,7 @@ namespace TestMod.Source.Guns.Pieces.Yukari.DanmakuBelow
         }
     }
 
-    public sealed class DanmakuBelowBPiece3Def : TestModPiece
+    public sealed class DanmakuBelowBPiece2Def : TestModPiece
     {
         public override PieceConfig MakeConfig()
         {
