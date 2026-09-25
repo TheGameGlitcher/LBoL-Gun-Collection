@@ -15,7 +15,7 @@ public static PieceConfig DefaultPieceConfig()
         HitInterval: 6,
         ZeroHitNotDie: false,
         Scale: new float[][] { },
-        Color: new int[][] { new int[] { 3 } },
+        Color: new int[][] { new int[] { 0 } },
         RootType: 0,
         X: new float[][] { },
         Y: new float[][] { },
